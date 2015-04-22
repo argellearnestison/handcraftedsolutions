@@ -1,0 +1,22 @@
+.btn-primary {
+	background-color: $green2;
+	border: solid 1px $green2;
+	
+	&:hover {
+		background-color: transparent;
+		color: $green2;
+		border-color: $green2;
+	}
+}
+
+.btn-default {
+	background-color: $red;
+	color: $white;
+	border: solid 1px $red;
+	
+	&:hover {
+		background-color: transparent;
+		color: $red;
+		border-color: $red;
+	}
+}

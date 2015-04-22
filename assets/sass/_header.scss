@@ -1,0 +1,32 @@
+header {
+	background-color: rgba(255,255,255,0.7);	
+	padding: 20px 0;
+	@include clearfix();
+	
+	.login-container {
+		@include clearfix();
+		
+		ul {
+			margin-bottom: 0 20px;
+			float: right;
+			
+			li {
+				display: inline-block;
+				
+				&:first-child {
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+	
+	.logo {
+		font-size: 20px;
+		float: left;
+		margin-right: 20px;
+		
+		span {
+			font-size: 40px;
+		}
+	}
+}
